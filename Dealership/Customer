@@ -1,0 +1,39 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package car_dealership;
+
+public class customer {
+   private String name;
+   private String address;
+   private double cashOnHand;
+
+   public customer() {
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public void setName(String name) {
+      this.name = name;
+   }
+
+   public String getAddress() {
+      return this.address;
+   }
+
+   public void setAddress(String address) {
+      this.address = address;
+   }
+
+   public double getCashOnHand() {
+      return this.cashOnHand;
+   }
+
+   public void setCashOnHand(double cashOnHand) {
+      this.cashOnHand = cashOnHand;
+   }
+
+   public void purchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
+      throw new RuntimeException("Uncompilable source code - Erroneous sym type: (Customer,boolean,car_dealership.Vehicle)void");
+   }
+}

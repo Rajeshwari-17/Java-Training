@@ -1,0 +1,35 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+package car_dealership;
+
+public class Vehicle {
+   private String make;
+   private String model;
+   private double price;
+
+   public Vehicle() {
+   }
+
+   public String getMake() {
+      return this.make;
+   }
+
+   public void setMake(String make) {
+      this.make = make;
+   }
+
+   public String getModel() {
+      return this.model;
+   }
+
+   public void setModel(String model) {
+      this.model = model;
+   }
+
+   public double getPrice() {
+      return this.price;
+   }
+
+   public void setPrice(double price) {
+      this.price = price;
+   }
+}
