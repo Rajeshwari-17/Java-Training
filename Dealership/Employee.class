@@ -1,0 +1,20 @@
+package car_dealership;
+
+public class Employee {
+   public Employee() {
+   }
+
+   public void handleCustomer(Customer cust, boolean finance, Vehicle vehicle) {
+      throw new RuntimeException("Uncompilable source code - cannot find symbol\n  symbol:   class Customer\n  location: class car_dealership.Employee");
+   }
+
+   public void runCreditHistory(customer cust, double loanAmount) {
+      System.out.println("run credit history for customer...");
+      System.out.println("Customer has been approved to purchase the vehicle");
+   }
+
+   public void processTransaction(customer cust, Vehicle vehicle) {
+      System.out.println("customer has purchased the vehicle:" + vehicle + "for the price" + vehicle.getPrice());
+   }
+}
+
